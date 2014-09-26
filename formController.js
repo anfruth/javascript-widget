@@ -12,7 +12,7 @@ formController.prototype = {
     event.preventDefault()
     var paramInst = new paramsString(this.view)
     var incomeInst = new income(this.view, paramInst)
-    
+
     var params = paramInst.separateParams()
     paramInst.convertParamsToJSON(params)
     incomeInst.getBreezeIncome(paramInst)
@@ -20,3 +20,5 @@ formController.prototype = {
     incomeInst.showFigures()
   }
 }
+
+//attempt to fix tab issue on github

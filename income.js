@@ -31,3 +31,5 @@ income.prototype = {
       this.view.getFinalResults().replaceWith(this.view.finalResultsFailText)
   }
 }
+
+//attempt to fix tab issue on github

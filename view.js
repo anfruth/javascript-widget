@@ -12,3 +12,5 @@ view.prototype = {
 		return $('.final-figures div')
 	}
 }
+
+//attempt to fix tab issue on github
