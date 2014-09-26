@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="car-form.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="initialize.js"></script>
+  <script type="text/javascript" src="formController.js"></script>
+  <script type="text/javascript" src="view.js"></script>
+  <script type="text/javascript" src="params.js"></script>
+  <script type="text/javascript" src="income.js"></script>
+  <title>Cost of Owning Your Own Car</title>
+</head>
+
+<body>
+  <div class="container">
+    <p>Enter monthly amounts below using your own car<p>
+    <form>
+      <input type="number" name="income" id="income" placeholder="Income">
+      <input type="number" name="miles" id="miles" placeholder="Miles Driven">
+      <input type="number" name="mpg" id="mpg" placeholder="MPG">
+      <input type="number" name="loan" id="loan" placeholder="Car Payment">
+      <input type="number" name="insurance" id="insurance" placeholder="Insurance">
+      <input type="number" name="taxes" id="taxes" placeholder="Taxes">
+      <input type="number" name="maintenance" id="maintenance" placeholder="Maintenance">
+      <input type="submit" id="submit" value="Submit">
+    </form>
+    <div class="final-figures"><div></div></div>
+  </div>
+</body>
+
+</html>
