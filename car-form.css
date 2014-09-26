@@ -1,46 +1,45 @@
 body{
-	background: url("http://s3.amazonaws.com/zephyr-assets/images/city.jpg") no-repeat center center fixed;
-	background-size: cover;
+  background: url("http://s3.amazonaws.com/zephyr-assets/images/city.jpg") no-repeat center center fixed;
+  background-size: cover;
 }
 
 form {
-	width: 20%;
+  width: 20%;
 }
 
 input {
-    display: block;
-    margin-bottom: 12px;
-    background-color: rgba(0,0,0,0.8);
-    height: 30px;
-    width: 300px;
-    color: white;
-    padding-left: 10px;
+  display: block;
+  margin-bottom: 12px;
+  background-color: rgba(0,0,0,0.8);
+  height: 30px;
+  width: 300px;
+  color: white;
+  padding-left: 10px;
 }
 
 .container {
-	margin-left: calc(50% - 150px);
-	margin-top: 50px;
+  margin-left: calc(50% - 150px);
+  margin-top: 50px;
 }
 
 .income {
-	color: white;
-	background-color: black;
-	border: 2px solid white;
-	width: 300px;
-	padding-left: 10px
-
+  color: white;
+  background-color: black;
+  border: 2px solid white;
+  width: 300px;
+  padding-left: 10px
 }
 
 .error {
-	color: red;
-	width: 300px;
-	background-color: black;
-	padding-left: 10px;
-	border: 2px solid white;
+  color: red;
+  width: 300px;
+  background-color: black;
+  padding-left: 10px;
+  border: 2px solid white;
 }
 
 input[type="submit"] {
-	width: 315px;
+  width: 315px;
 }
 
-/*attempt to fix tab issue on github*/
+/*attempt to fix tab issue github*/
